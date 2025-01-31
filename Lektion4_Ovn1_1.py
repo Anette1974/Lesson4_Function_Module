@@ -1,4 +1,5 @@
 #https://github.com/Anette1974/Lesson4_Function_Module.git
+'''
 print("Övning 1 - Läsa och förstå kod")
 print("1a")
 def foo(t):
@@ -40,7 +41,7 @@ print(a)
 
 print("1f")
 def foo(i):
-    return 2ii
+    return 2
 
 def goo(x, y):
     return x(y)
@@ -89,3 +90,4 @@ def find_min(numbers):
 find_min([10, 3, -4, -11])
 find_min([])
 find_min([100])
+'''
