@@ -40,4 +40,24 @@ def increase (x):
     x += 1
     print(x)
     return x
-#print(increase(5)) #ger inget print tillbaks när funktionen körs. Däremot gör print det som ligger högre upp
+#print(increase(1)) #ger inget print tillbaks när funktionen körs. Däremot gör print det som ligger högre upp
+
+#Övning 7 - Bygg en funktion med namnet average. Den ska ta parametrar: x och y. Båda ska vara tal. Funktionen ska returnera medelvärdet.
+def average (x, y):
+    print("\nÖvning 7 - Räkna ut medelvärdet")
+    medel = (x+y)/2 # räknar ut medelvärdet av talen x och y
+    print(f"Medelvärdet av tal {x} och tal {y} är: {medel}")
+
+#Övning 8 - Skriva ut innehållet i en lista
+def print_list():
+    print("\nÖvning 8 - Skriva ut innehållet i en lista")
+    pretty_print = (["a", "b", 3.14]) # Två olika alternativ av pretty_print, om jag vill test tom lista eller med 3 element
+    #pretty_print = ([])
+    length = len (pretty_print)
+    if length > 0:
+        print(f"Listan har {length} element:")
+        print("1. "+pretty_print[0])
+        print("2. "+pretty_print[1])
+        print("3. "+str(int(pretty_print[2]))) #Konverterar int till str innan de skrivs ut
+    else:
+        print ("Listan är tom!")
